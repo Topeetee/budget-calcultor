@@ -1,5 +1,5 @@
 import React from 'react'
-import {MdEdit, MdDElete}  from 'react-icons/md'
+import {MdEdit, MdDelete}  from 'react-icons/md'
 const ExpenseItem = ({expense}) => {
     const {id, charge, amount} = expense
   return (
